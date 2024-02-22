@@ -1,0 +1,11 @@
+/* Targets buttons within a div with the 'text-center' class */
+.buttons text-center py-5 {
+    border: 2px solid #000; /* Example: solid black border */
+}
+
+/* Optionally, you can add hover effects to these buttons */
+.btn btn-outline-dark btn-sm m-2:hover {
+    border-color: #007bff; /* Changes border color on hover */
+    background-color: #007bff; /* Optional: changes background color on hover */
+    color: #fff; /* Changes text color on hover */
+}

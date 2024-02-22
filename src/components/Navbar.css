@@ -1,0 +1,26 @@
+
+.nav-item .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Target buttons within a div with class 'text-center' */
+.text-center .btn {
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    color: inherit; /* Use the inherited text color */
+}
+
+.text-center .btn:hover {
+    background-color: #f30808; /* Example background color, adjust as needed */
+    color: #ffffff; /* Change text color for better visibility */
+    padding: .375rem .75rem; /* Adjust padding if needed */
+    border-radius: .25rem; /* Optional: Adds rounded corners */
+    text-decoration: none; 
+}
+.shop-part-one {
+    color: #0e0f0f; /* First color */
+}
+
+.shop-part-two {
+    color: #ff5555; /* Second color */
+}

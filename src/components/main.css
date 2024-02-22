@@ -1,0 +1,31 @@
+/* Ensure the hero image doesn't overshadow the container */
+.hero .card-img-overlay {
+    background-color: transparent; /* Dark overlay to make text pop; adjust opacity as needed */
+}
+
+/* Style for container1 to ensure visibility */
+.container1 {
+    background-color: rgba(255, 255, 255, 0.5); /* Light background with some opacity */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Optional: rounded corners for aesthetics */
+}
+
+/* Style for the text to ensure it is readable */
+.container1 .card-title {
+    color: black; /* Dark text color for contrast against light background */
+    text-shadow: 2px 2px 4px rgba(20, 1, 1, 0.925); /* Optional: text shadow for better readability */
+}
+
+/* Style for the button to make it more appealing */
+.container1 button {
+    background-color: #e7eaec; /* Button background color */
+    color: rgb(17, 16, 16); /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.container1 button:hover {
+    background-color: red; /* Darker shade on hover */
+}
